@@ -1,0 +1,35 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<form action="Adminfor.php" method="post" name="formulario">
+		<label for="user">
+			   Usuario:
+			<input type="text" name="user">
+		</label>
+		<br>
+		<label for="con">
+			Contraseña:
+			<input type="password" name="con">
+		</label>
+		<fieldset>
+			<legend>Elige la opcion:
+			</legend>
+				<br>
+				<label for="opcion">
+					<input type="radio" id="opcion"name="tipo" value="alta"> Alta
+					<input type="radio" id="opcion"name="tipo" value="baja"> Baja
+					<input type="radio" id="opcion"name="tipo" value="cambio">Cambio de contraseña
+					<input type="radio" id="opcion" name="tipo" value="lista">Listar
+				
+				</label>
+			
+		
+			</fieldset>
+			<label for="boton">
+				<input type="submit" id="boton" name="validar">
+				
+			</label>
+		</form>
+	</body>
+</html>
